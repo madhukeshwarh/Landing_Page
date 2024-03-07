@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gadgets - Landing Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #b7e2f7;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .search-bar {
+      width: 300px;
+      height: 30px;
+      padding: 5px;
+      border-radius: 5px;
+      border: none;
+      margin-right: 10px;
+      font-size: 16px;
+    }
+
+    .search-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .search-button:hover {
+      background-color: #45a049;
+    }
+
+    .login-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .login-button:hover {
+      background-color: #45a049;
+    }
+
+    .product-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 50px;
+    }
+
+    .product-info {
+      max-width: 30%;
+    }
+
+    .product-info img {
+      width: 100%;
+      max-width: 87%;
+      height: auto;
+    }
+
+    .product-details {
+      margin-top: 20px;
+    }
+
+    .order-button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 15px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 18px;
+      cursor: pointer;
+      margin-top: 20px;
+      display: block;
+    }
+
+    .order-button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Latest Gadgets</h1>
+    <form action="#" class="search-form">
+      <input type="text" placeholder="Search" class="search-bar">
+      <button type="submit" class="search-button">Search</button>
+    </form>
+    <button class="login-button">Login</button>
+  </header>
+
+  <div class="container">
+    <div class="product-section">
+      <div class="product-info">
+        <h2>Smartphone</h2>
+        <img src="https://img.etimg.com/photo/msid-98898599,imgsize-35708/Xiaomi12Pro5G.jpg" alt="Smartphone">
+        <div class="product-details">
+          <h3>Features:</h3>
+          <ul>
+            <li>6.5" AMOLED Display</li>
+            <li>Quad Camera Setup</li>
+            <li>128GB Internal Storage</li>
+            <li>8GB RAM</li>
+            <li>5000mAh Battery</li>
+            <li>5G Connectivity</li>
+          </ul>
+          <button class="order-button">Order Now</button>
+        </div>
+      </div>
+      
+      <div class="product-info">
+        <h2>Laptop</h2>
+        <img src="https://m.media-amazon.com/images/I/61IvGvx-bNL.jpg" alt="Laptop">
+        <div class="product-details">
+          <h3>Features:</h3>
+          <ul>
+            <li>15.6" Full HD Display</li>
+            <li>Intel Core i7 Processor</li>
+            <li>512GB SSD Storage</li>
+            <li>16GB RAM</li>
+            <li>NVIDIA GeForce GTX Graphics</li>
+            <li>Windows 10 Operating System</li>
+          </ul>
+          <button class="order-button">Order Now</button>
+        </div>
+      </div>
+
+      <div class="product-info">
+        <h2>Refrigerator</h2>
+        <img src="https://static.toiimg.com/thumb/msid-85832567,width-400,resizemode-4/85832567.jpg" alt="Refrigerator">
+        <div class="product-details">
+          <h3>Features:</h3>
+          <ul>
+            <li>Capacity: 500 liters</li>
+            <li>Energy Efficient</li>
+            <li>Smart Cooling Technology</li>
+            <li>Adjustable Shelves</li>
+            <li>LED Lighting</li>
+            <li>Automatic Defrost</li>
+          </ul>
+          <button class="order-button">Order Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2024 Gadgets Co. All rights reserved.
+  </footer>
+
+</body>
+</html>
